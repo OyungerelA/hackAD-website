@@ -22,6 +22,7 @@ header {
     display: flex;
     align-items: center;
     font-family: 'VT323';
+    /* font-family: 'Roboto Slab', serif; */
 }
 
 /* landing page */
@@ -219,17 +220,17 @@ a:link {
 /* container for mission statement */
 .mission-sct{
     width: 100vw;
-    height: 45vh;
+    height: 55vh;
     background-color: #2C7FB4;
     text-align: center;
-    height: fit-content;
+    /* height: fit-content; */
     padding-bottom: 50px;
 }
 
 .mission-sct h1{
     padding-top: 5vh;
     font-size: 45px;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
 }
 
 .mission-sct-txt{
@@ -270,21 +271,44 @@ a:link {
     position: relative;
     justify-content: space-around;
     align-items: center;
-    width: 70vw;
+    width: 75vw;
     margin: auto;
-    gap: 50px;
+    gap: 40px;
     padding-top: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 #member-info div{
-    width: 20vh;
-    height: 20vh;
+    width: 25vh;
+    height: 25vh;
     top: 0;
     left: 0;
     margin: 25px;
-    background-color: white;
-    border-radius: 20vh;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#member-info  *{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.eboard-pic{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: white 3px solid;
+}
+
+.eboard-container h3{
+    color: white;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
 }
 
 .footer-container{
@@ -301,8 +325,8 @@ a:link {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    gap: 70px;
-    padding-left: 5rem;
+    gap: 90px;
+    padding-left: 4rem;
 }
 
 .footer-container * {
@@ -312,3 +336,28 @@ a:link {
 .footer-container img{
     max-height: 30px;
 }
+
+
+.mc-field-group *{
+    position: relative;
+    /* border: red 5px solid; */
+}
+
+#mce-EMAIL{
+    /* margin-left: 8vw; */
+    margin-left: 5rem;
+    width: 400px;
+    height: 4vh;
+    outline: none;
+    border: black 2px solid;
+    margin-right: 7px;
+
+}
+
+#mc-embedded-subscribe{
+    width: 70px;
+    height: 4.6vh;
+    outline: none;
+    border-bottom: black 2px solid;
+}
+
